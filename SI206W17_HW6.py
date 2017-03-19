@@ -125,20 +125,20 @@ print("\n\n***** Problem 6 *****")
 ## Write code to cast that iterator to a list. Save that list in the variable prod_list.
 
 ## You may add a method to the Student class if you wish in order to do this, but you do not need to. (If you do, make sure you do not create any syntax errors that keep code/tests from running!)
-# def productivity():
-#     return Student.num_programs/Student.years_UM
+def productivity():
+    return Student.num_programs/Student.years_UM
 
-# prod_iter = map(productivity(), programmers) 
-# prod_list = list(prod_iter)
+prod_iter = map(productivity(), programmers) 
+prod_list = list(prod_iter)
 
 
 ## [PROBLEM 7]
 print("\n\n***** Problem 7 *****")
 # Create a list of tuples wherein each tuple has a student's name and productivity value. Save the list of tuples in a variable called names_and_productivities. To do this, you should use a list comprehension (you may also use the zip function, and you may use any variables you have already created).
-# names_and_productivities = []
-# for programmer in programmers:
-#     names_and_productivities.append((programmer.name, programmer.productivity))
-# ## But be careful that if you use answers from previous problems, you use the LISTs you generated, so that all your tests can still pass and you avoid confusion!
+names_and_productivities = []
+for programmer in programmers:
+    names_and_productivities.append((programmer.name, programmer.productivity))
+## But be careful that if you use answers from previous problems, you use the LISTs you generated, so that all your tests can still pass and you avoid confusion!
 
 
 
